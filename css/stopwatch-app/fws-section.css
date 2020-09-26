@@ -3,8 +3,6 @@
     padding-top: 8px;
 }
 #stopwatch-app-fws-section-area {
-    position: absolute;
-    bottom: 0px;
     width:100%;
     height: 40px;
     background: linear-gradient(rgb(62, 163, 247), rgb(115, 187, 245));

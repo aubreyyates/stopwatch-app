@@ -189,6 +189,10 @@ button:focus {outline:0;}
   height:50px;
 }
 
+.space250{
+  height:250px;
+}
+
 h1{
   font-size:36px;
   font-family:"Varela Round";
@@ -196,8 +200,8 @@ h1{
 }
 
 html {
-  height: 100%;
+  
 }
 body {
-  min-height: 100%;
+ 
 }

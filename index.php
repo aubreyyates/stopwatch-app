@@ -35,6 +35,14 @@
 
             ?>
 
+            <div class='space250'></div>
+
+            <?php
+
+                include "widgets/stopwatch-app/stats.php";
+
+            ?>
+
         </div>
 
         <?php
@@ -42,6 +50,7 @@
             include "widgets/stopwatch-app/fws-footer.php";
 
         ?>
+        
         
     </body>
 </html>

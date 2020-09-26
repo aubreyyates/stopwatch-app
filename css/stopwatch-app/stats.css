@@ -1,0 +1,48 @@
+#stopwatch-app-stats{
+    height:400px;
+}
+
+
+#stopwatch-app-stats-heading-container{
+    text-align: center;
+    font-family: "Varela Round";
+    font-size:32px;
+    width:100px;
+    float:left;
+    line-height:60px;
+}
+#stopwatch-app-stats-heading-centered{
+    width:180px;
+    height:80px;
+    margin: 0 auto;
+}
+
+#stopwatch-app-stats-stats-icon-image-container{
+    float:left;
+    width:80px;
+}
+
+#stopwatch-app-stats-main-heading{
+    height:120px;
+}
+
+.stopwatch-app-stats-individual-stat-container{
+    height:42px;
+    font-family: "Varela Round";
+    font-size:20px;
+}
+
+.stopwatch-app-stats-words{
+    float:left;
+    width:75%;
+}
+.stopwatch-app-stats-words-stat{
+    float:right;
+    width:25%;
+    text-align:right;
+}
+
+
+
+
+
