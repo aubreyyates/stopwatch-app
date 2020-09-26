@@ -1,0 +1,91 @@
+#stopwatch-app-stopwatch-clock-in-buttons-area {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.stopwatch-app-stopwatch-clockin-button {
+	position: absolute;
+	width: 50%;
+	height: 30px;
+	color: white;
+	border: none;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	cursor: pointer;
+	font-family: Nunito;
+}
+
+#stopwatch-app-stopwatch-clockin {
+	background-color:#75fc75;
+}
+
+#stopwatch-app-stopwatch-clockout {
+	background: #423d3d;
+}
+
+#stopwatch-app-stopwatch-clockin-button-container{
+	float:left;
+	height:30px;
+	width: 50%;
+}
+
+#stopwatch-app-stopwatch-clockout-button-container{
+	float:right;
+	height:30px;
+	width: 50%;
+}
+
+.stopwatch-app-stopwatch-space20{
+	height:20px;
+}
+
+#stopwatch-app-stopwatch-user-clock {
+	font-size: 42px;
+	color: rgb(204, 250, 250);
+
+	text-shadow: 0px 0px 2px rgb(204, 250, 250);
+
+	font-family: Nunito;
+	line-height: 68px;
+	letter-spacing: 0px;
+}
+#stopwatch-app-stopwatch-user-clock-container{
+	text-align:center;
+	margin-top:30px;
+	height:66px;
+	background: linear-gradient(131deg, rgb(46, 46, 46) 8%, rgb(15, 15, 15) 100%);
+
+}
+
+#stopwatch-app-stopwatch-breakbtn-container{
+	margin:0 auto;
+	width: 125px;
+	height:30px;
+}
+
+#stopwatch-app-stopwatch-breakbtn {
+	margin: 0 auto;
+	height: 30px;
+	width: 125px;
+	border: none;
+	background: #423d3d;
+	font-size: 16px;
+	color: white;
+	cursor:pointer;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 460px) {
+	#stopwatch-app-stopwatch-clock-in-buttons-area {
+		width: 360px;
+	}
+	#stopwatch-app-stopwatch-breakbtn,#stopwatch-app-stopwatch-breakbtn-container {
+		width: 180px;
+	}
+}

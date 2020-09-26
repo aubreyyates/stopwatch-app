@@ -1,0 +1,24 @@
+#stopwatch-app-fws-section {
+    color: white;
+    padding-top: 8px;
+}
+#stopwatch-app-fws-section-area {
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 40px;
+    background: linear-gradient(rgb(62, 163, 247), rgb(115, 187, 245));
+    text-align:center;
+    font-family: nunito;
+}
+
+#stopwatch-app-fws-section a{
+    text-decoration: none; 
+}
+
+#stopwatch-app-fws-section-white{
+    color:white;
+}
+#stopwatch-app-fws-section-blue{
+    color:#283b62
+}
